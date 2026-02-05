@@ -1,7 +1,7 @@
 # キーボードについて
 自作キーボードのIIIQBallの英語配列用ファームウェアです。
 
-![alt text](../img/US_1.JPG)
+![alt text](../img/US_1.jpg)
 
 ## 主な機能
 *75%キーボード

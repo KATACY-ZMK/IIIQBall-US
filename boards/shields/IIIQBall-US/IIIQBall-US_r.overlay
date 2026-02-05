@@ -59,18 +59,16 @@
         spi-max-frequency = <2000000>;
         motion-gpios = <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         res-cpi = <600>;
-
+        
         zephyr,axis-x = <INPUT_REL_Y>;
         zephyr,axis-y = <INPUT_REL_X>;
         
         invert-y;
-        
-        /* force-awake; */
     };
 };
 
 / {
-  trackball_listener: trackball_listener {
+  trackball_listener: trackball_listener {  // "trackball_listener:" を追加
     status = "okay";
     compatible = "zmk,input-listener";
     device = <&trackball>;

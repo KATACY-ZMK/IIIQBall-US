@@ -9,15 +9,14 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical_layout0; // ← ZMK Studio用にここに追加しておくと確実です
+        zmk,physical-layout = &physical_layout0;
     };
 
-    // 1つ目の定義に kscan の情報を統合しました
     physical_layout0: physical_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
-        kscan = <&kscan0>; // ← ここに追記しました
+        kscan = <&kscan0>;
         keys  //                    w   h    x    y      rot     rx     ry
             
             = <&key_physical_attrs 100 100    0    0       0      0      0>

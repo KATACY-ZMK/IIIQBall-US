@@ -16,9 +16,9 @@ GitHubのアカウントを作成しから本リポジトリから画面右上�
 
 以下の方法でGUIキーマップ変更ができます。
 簡単なキー変更であれば[ZMK Studio](https://zmk.studio)での変更が可能です。アプリ版をPCにインストールすればワイヤレス状態での変更が可能です。主にキースイッチの変更がメインです。　
-![zmk studio](img/home/zmk studio1.jpg)
+![zmk studio](img/home/zmk%20studio1.png)
 
 細かい変更は[KeymapEditor](https://nickcoutsos.github.io/keymap-editor)で変更が可能です。エンコーダーの編集、マクロ設定、変更履歴を残すなどといった変更をする場合がメインです。編集が完了した場合左上の「Save」を押すことでForkしたリポジトリに変更内容が更新され自動的にビルドされます。ビルドにはおよそ4,5分かかります。ビルドが完了すると初期インストールと同様にfirmware」をダウンロードできるので同様の手順で変更を行ってください。
-![zmk keymap editor](img/home/keymap editor1.jpg)
+![zmk keymap editor](img/home/keymap%20editor1.png)
 ## レイヤー設定
 初期レイアウトではレイヤー1ではマウススクロールレイヤーがありレイヤー1の状態ではマウスを動かすとページスクロールができます。

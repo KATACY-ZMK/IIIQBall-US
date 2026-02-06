@@ -201,6 +201,3 @@
         triggers-per-rotation = <20>;
     };
 };
-
-a-gpios = <&gpio0 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
